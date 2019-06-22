@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Beautiful Jekyll
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/daattali/20)
@@ -313,3 +314,6 @@ If you do fork or clone this project to use as a template for your site, I would
 ## Known limitations
 
 - If you have a project page and you want a custom 404 page, you must have a custom domain.  See https://help.github.com/articles/custom-404-pages/.  This means that if you have a regular User Page you can use the 404 page from this theme, but if it's a website for a specific repository, the 404 page will not be used.
+=======
+# manojgohel.github.io
+>>>>>>> 194b8e0c2d67908ee94a0ddae48da8d0966b3f8e
