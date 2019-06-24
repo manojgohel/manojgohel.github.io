@@ -1,10 +1,15 @@
 ---
-layout: post
 title: Test markdown
+date: 2015-02-28 00:00:00 Z
+tags:
+- test
+layout: post
 subtitle: Each post also has a subtitle
 gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
-tags: [test]
+gh-badge:
+- star
+- fork
+- follow
 comments: true
 ---
 
