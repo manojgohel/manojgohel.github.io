@@ -1,5 +1,6 @@
 ---
 title: Manojgohel.Github.Io
+theme: jekyll-theme-hacker
 timezone: UTC
 collections:
   posts:
