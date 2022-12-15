@@ -1,0 +1,35 @@
+This extension was developed to work with any S3-compatible object storage which support AWS S3 APIs spec.
+
+- Supports popular S3 object storages (AWS S3, Storj, Google Cloud storage, Digital Occean's spaces, Minio ...)
+- Core features:
+  + Single/multiple file(s) upload, download, copy, delete ...
+  + Support copy/move objects across different buckets
+  + Bucket listing/creation/delete
+  + Folder-like structure listing using prefix and delimitter
+  + Generate share link using presigned request with custom expire time
+  + Compatible with any object storage supporting S3 AWS API by specifying server's host/port. Meaning local S3 server's supported too.
+  Users are able to chage bucket url as Path Style or Virtual-host style request depends on S3 server.
+  For example: For AWS S3
+    ++ Path style: https://s3.amazonaws.com/[bucket-name]/[object-path]   -> this is deprecated. only support bucket created before September 30, 2020
+    ++ Virtual-host style: https://[bucket-name].s3.amazonaws.com/[object-path] -> recommended - default AWS s3 template we use this style, you can change it with custom template
+  + Support upload/download file with big size (> 5GB), transfers queueing, progress tracking
+
+-Upcoming features:
+
+  + In near future
+    ++ Object detail panel
+    ++ Bucket/Objects access controll list (ACL) management
+    ++ Image Viewer/Video player
+
+  + And might be a bit far:
+    ++ Integrate with AWS Cloud Front
+    ++ Data backup management using S3
+
+*** Notice: All of your s3's secret keys are stored in and only in your local machine.
+We are NOT transfering those information out nor store them in any form in any of our remote servers.
+
+*** Tags:
+S3, Explorer, AWS, GCP, Cloud Storage, Minio, Digital Occean Spaces, Wasabi, Cleversafe
+Object Storage, Self-hosted S3, Ceph, Zenko, Riak S2, Triton, LeoFS, HyperStore
+Storj
+
