@@ -1,6 +1,7 @@
 ---
-title: Manojgohel.Github.Io
+title: manojgohel.github.io
 timezone: UTC
+future: true
 collections:
   posts:
     title: Posts
